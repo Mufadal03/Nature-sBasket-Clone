@@ -1,0 +1,135 @@
+#content {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+#logoBox {
+    text-align: center;
+}
+
+#logoBox>img {
+    width: 200px;
+    margin-right: 10px;
+}
+
+#topPara {
+    height: auto;
+    padding: 9px 0px 0px 2px;
+    border-radius: 8px;
+    font: 12px Poppins, sans-serif;
+    width: 99%;
+    text-align: center;
+    color: #393939;
+}
+
+.container {
+    align-content: left;
+}
+
+#searchbar {
+    display: flex;
+    align-items: center;
+}
+
+#divSearch {
+    place-content: center;
+
+}
+
+#kishorilal {
+    width: 900px;
+    align-content: center;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    color: grey;
+}
+
+#Sky {
+    display: flex;
+}
+
+#Sky>img {
+    margin-left: -1px;
+    margin-right: 20px;
+}
+
+#sky>img+img {
+    border-left: 2px solid;
+}
+
+#Baba {
+    color: black;
+    margin-left: 0px;
+    padding: 5px 0px 5px 5px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+/* #box{
+    
+} */
+#Baba>div {
+    font-weight: lighter;
+    padding: 0px 10px;
+    margin: 0px 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#Baba>div:nth-child(7) {
+    /* margin-left: px; */
+    margin-right: -40px;
+
+
+}
+
+#Baba>div+p {
+    flex-flow: nowrap;
+}
+
+#str {
+    margin-left: 2 0px;
+}
+
+#navLinks {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.12) 0px 0px 0px 1px;
+    border-radius: 5px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 12px;
+}
+
+#navLinks>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0px 15px;
+    padding: 10px 0px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+}
+
+#navLinks>a:nth-child(1) {
+    color: rgb(156, 11, 154);
+    font-size: 1.1rem;
+}
+
+#navLinks>a:hover {
+    border-bottom: 2px solid green;
+}
+
+#line {
+    margin: 0px 10px;
+}
+
+#cart,
+#str {
+    cursor: pointer;
+}

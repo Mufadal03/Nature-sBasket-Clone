@@ -1,0 +1,307 @@
+/*CSS will be written here!*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+    /* border: 1px solid black; */
+    width: 85%;
+    margin: auto;
+}
+
+#section-1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filter-box {
+    /* border: 1px solid rgba(0, 0, 0, 0.107); */
+    width: 18%;
+}
+
+.gifts {
+    /* border: 1px solid blue; */
+    width: 82%;
+    padding-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*Filter Box*/
+.filter-box-1 {
+    border: 1px solid rgba(0, 0, 0, 0.107);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.filter-box-1 p {
+    color: rgb(26, 204, 35);
+    font-size: 0.8rem;
+    margin-left: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filter-box-2 {
+    border: 1px solid rgba(0, 0, 0, 0.107);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    height: 15vh;
+    padding: 10px 0 10px 18px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.filter-box-2 p:first-child {
+    font-weight: bold;
+}
+
+.filter-box-2 p:nth-child(2),
+p:nth-child(3) {
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.filter-box-3 {
+    border: 1px solid rgba(0, 0, 0, 0.107);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 0 10px 18px;
+    height: 15vh;
+    font-size: 0.9rem;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.filter-box-3 div {
+    /* border: 1px solid orange; */
+    display: flex;
+    align-items: center;
+    width: 48%;
+}
+
+.filter-box-3 input {
+    margin-right: 8px;
+}
+
+.filter-box-3 label {
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.filter-box-4 {
+    background-color: #E1E2D2;
+    height: 73vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter-box-4 H4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.filter-box-4 form span,
+textarea {
+    display: flex;
+    height: 3vh;
+    margin-top: 20px;
+}
+
+.filter-box-4 .form-city {
+    padding-right: 69px;
+}
+
+.filter-box-4 textarea {
+    height: 40%;
+}
+
+.filter-box-4-form span {
+    color: #dc0054;
+    font-weight: bold;
+}
+
+.form-submit {
+    background-color: #b71453;
+    color: whitesmoke;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 4px;
+    width: 95%;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.terms {
+    width: 80%;
+    margin-top: 17px;
+    text-align: justify;
+    letter-spacing: -0.5px;
+}
+
+.terms label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.btn-catalogue {
+    background-color: #b71453;
+    color: whitesmoke;
+    padding: 5px;
+    margin-top: 4px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/*Gifts Section*/
+.gifts p:first-child {
+    color: rgba(0, 0, 0, 0.511);
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.gifts-second-line {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.111);
+}
+
+.gifts-second-line>span {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.gifts-second-line-select {
+    border: none;
+    width: 8%;
+}
+
+.gifts>div:first-child {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 16vh;
+    margin-bottom: 28px;
+}
+
+
+.product-container {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 50px;
+}
+
+.product-container>div>img {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.product-container>div {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    height: 62vh;
+}
+
+.priceNAddBtn {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.priceNAddBtn p {
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px 12px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    color: black;
+    line-height: 2.5em;
+}
+
+.priceNAddBtn img {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    color: whitesmoke;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.product-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+}
+
+.product-container>div:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 5px 5px 5px;
+    transition: 350ms;
+}
+
+
+/*Section-2*/
+#section-2 {
+    /* border: 1px solid red; */
+    height: 56vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-2-box1>p:first-child {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.8;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.section-2-box-desc {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.9rem;
+}
+
+.section-2-box2>p:first-child {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.8;
+    font-size: 1.1rem;
+    margin-bottom: 1px;
+}
+
+
+.section-2-box3>p:first-child {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.8;
+    font-size: 1.1rem;
+    margin-bottom: 1px;
+}
+
+.section-2-box3>p:last-child {
+    opacity: 0.6;
+    letter-spacing: 0.1px;
+    margin-top: 14px;
+}
