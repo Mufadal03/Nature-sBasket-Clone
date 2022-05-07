@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.container{
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+}
+#container_left{
+    width: 10%;
+}
+#container_left>p{
+    background-color: #B71761;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#container_right{
+    width: 90%;
+    padding: 5px;
+}
+.offer {
+    height: auto;
+    margin: 20px 0px 40px 0px;
+    margin: auto;
+    width: 85%;
+}
+
+.offer>img {
+    width: 100%;
+    cursor: pointer;
+}
+#latestDeals{
+    display: flex;
+    border-bottom: 1px solid ;
+    font-family: 'Poppins',
+    sans-serif;
+}
+#latestDeals>h3,p{
+    padding: 10px 5px ;
+}
+#productNo{
+    font-size: 13px;
+    color: gray;
+    padding: 17px 5px 5px 5px;
+}
+.priceDiv{
+    display: flex;
+    justify-content: center;
+    
+}
+.priceDiv>p{
+    border: 1px solid ;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: 10px;
+    padding: 10px 5px;
+}
+#products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto);
+    gap: 30px 10px  ;
+    margin: 20px 0px;
+}
+#products>div{
+    border-radius:10px ;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Raleway',
+    sans-serif;
+    border-right: 1px solid gray;
+}
+#products>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.productImg{
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 10px;
+}
+.tagLine{
+    width: auto;
+    border-radius:10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #B71761;
+    border:1px solid #B71761;
+    padding: 5px 10px;
+}
+#AddtoCart{
+    cursor: pointer;
+    border-radius: 5px;
+}
