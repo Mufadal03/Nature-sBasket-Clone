@@ -94,16 +94,19 @@ justify-content: center;
     margin: 5px 0px;
 }
 #navLinks>a{
-    text-decoration: none;
+  text-decoration: none;
     text-transform: uppercase;
-    color: black;
-    margin: 0px 15px ;
+    margin: 0px 15px;
     padding: 10px 0px;
-    font-size: 13px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
 }
 #navLinks>a:nth-child(1)
 {
-    color: red;
+    color: rgb(156, 11, 154);
+    font-size: 1.1rem;
 }
 #navLinks>a:hover{
     border-bottom: 2px solid green;
