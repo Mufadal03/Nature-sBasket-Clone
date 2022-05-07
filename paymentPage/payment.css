@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+#Container{
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+}
+#top{
+    text-align: center;
+    border:1px solid #b71761;
+    background-color: #b71761;
+    color: white;
+    margin:0px 10px;
+    padding: 5px 0px;
+
+}
+#left{
+    width: 20%;
+    background: white;
+}
+#left>div{
+    height: auto;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+    font-size: 15px;
+}
+#left>div:hover{
+    background-color: lavender;
+    cursor: pointer;
+}
+#left>div>img{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+#right{
+    width: 50%;
+    text-align: center;
+    border-left: 1px solid;
+    display: none;
+    padding: 0px 10px;
+    background: white;
+
+}
+h3{
+    margin: 10px 0px;
+    text-align: center;
+}
+#right02{
+    width:30% ;
+    background: white;  
+}
+#coupons{
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    animation: order 3s infinite;
+}   
+#coupons>p{
+    margin-bottom: 5px;
+}
+#coupons>button{
+    padding: 5px ;
+}
+#cardPay{
+    border: 1px solid ;
+    margin: 20px 0px ;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 20px;
+}
+@keyframes cardPay {
+    0% {
+        color: #b71761;
+    }
+
+    25% {
+        color: blue;
+    }
+
+    50% {
+        color: blueviolet;
+    }
+
+    100% {
+        color: #b71761;
+    }
+}
+#cardPay>h3{
+    margin: 20px 0px 10px 0px;
+}
+#cardPay>p{
+    margin: 10px 0px;
+}
+#cardPay>input{
+    height: 20px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid;
+    
+}
+#cardPay>p{
+    font-size: 18px;
+    margin: 0px 0px 10px 0px;
+    /* line-height: 30px; */
+}
+#expiry{
+    margin: 20px 0px;
+}
+#expiry>input{
+    width: 45px;
+    border: none;
+    border-bottom: 1px solid;
+}
+#Cvv{
+    width: 50px;
+}
+label{
+    font-size: 18px;
+}
+#Pay{
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius:10px ;
+    border: none;
+    border: 1px solid ;
+    cursor: pointer;
+    /* background-color: blue; */
+    color: white;
+    background: #b71761;
+    animation: button 5s infinite ease-in-out;
+}
+
+#Pay:hover{
+    background-color: #8d0a47;
+    color: white;
+}
+p{
+    margin: 10px 0px 0px 0px;
+}
+input{
+    font-size: 16px ;
+}
+#orderSummary{
+    width: 80%;
+    margin: 10px auto;
+    height: auto;
+    border-radius:20px ;
+    animation: order 3s infinite ;
+    padding: 10px;
+}
+@keyframes order {
+    0% {
+        border-top: 2px solid #b71761;
+    }
+
+    25% {
+        border-right: 2px solid #b71761;
+    }
+
+    50% {
+         border-bottom: 2px solid #b71761;
+    }
+
+    100% {
+        border-left: 2px solid #b71761;
+    }
+}
+#orderSummary>p{
+    padding: 0px 10px;
+    font-weight: bold;
+}
+#orderSummary>p>span{
+    padding: 0px 10px;
+    font-weight: 400;
+}
+#otp {
+    border-bottom: 1px solid ;
+}
+#otp>span{
+    color: #b71761;
+    font-weight: bold;
+    font-size: 20px;
+}
+#orderBox{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#applied{
+    color: green;
+}

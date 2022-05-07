@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://gnbdevcdn.s3.amazonaws.com/Images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="verify.css">
+    <title>verification</title>
+</head>
+<body>
+    <div id="verification">
+        <h3>Enter One Time Password</h3>
+        <p>sent to +91-98******86</p>
+        <input type="text" name="" id="">
+        <input type="text" name="" id="">
+        <input type="text" name="" id="">
+        <input type="text" name="" id="">
+        <p>Didn't recieved <span>Resend</span></p>
+        <div id="btn"><button>Verify</button>   </div>
+    </div>
+</body>
+</html>
+<script>
+    document.querySelector("span").addEventListener("click",function()
+    {
+        window.location.reload()
+    })
+    document.querySelector("button").addEventListener("click",function()
+    {
+        document.querySelector("#verification").innerHTML=""
+        var h3 = document.createElement("h3")
+        h3.innerText="PAYMENT SUCCESSFULL"
+        document.querySelector("#verification").append(h3)
+        document.querySelector("#verification").style.backgroundColor="white"
+        var body = document.querySelector("body")
+        body.style.backgroundColor="lavender"
+        // alert("PAYMENT SUCCESSFULL")
+    })
+</script>
