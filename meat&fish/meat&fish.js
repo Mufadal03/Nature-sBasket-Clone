@@ -211,7 +211,9 @@ Img.src=elem.productImg
 
 var Pb=document.createElement("p")
 Pb.innerText="DELIVERY IN 90 MINUTES"
-Pb.style.border="1px solid #B71761"
+    Pb.style.border = "1px solid #B71761"
+    Pb.style.padding = "5px"
+    Pb.style.fontSize="12px"
 Pb.style.borderRadius="8px"
 Pb.style.color=" #B71761"
 
@@ -227,12 +229,12 @@ Pr.innerText="MRP"+"  "+"₹"+elem.productPrice
 Pr.style.border="1px solid black"
 Pr.style.borderRadius="8px"
 
-var add=document.createElement("div")
+var add=document.createElement("img")
 add.setAttribute("class","ATC")
-add.style.backgroundImage="url(https://www.naturesbasket.co.in/Images/CartAddBtn.PNG)"
-add.style.backgroundSize="cover"
-add.style.width="92px"
-add.style.height="30.5px"
+add.src="https://www.naturesbasket.co.in/Images/CartAddBtn.PNG"
+// add.style.backgroundSize="cover"
+// add.style.width="92px"
+// add.style.height="30.5px"
 add.addEventListener("click",function(){
 
 
@@ -256,3 +258,9 @@ console.log(addArr)
 alert("Product added to Cart")
 localStorage.setItem("cartProduct",JSON.stringify(addArr))
 }
+var cart = document.querySelector("#cart")
+cart.addEventListener("click", function ()
+{
+     window.location.href="/Nature-sBasket/CartPage/cart.html"
+
+})

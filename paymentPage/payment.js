@@ -28,7 +28,7 @@ document.querySelector("#ApplyBtn").addEventListener("click", function ()
 {
         document.querySelector("#del").innerText = 0
         document.querySelector("#TotalA").innerText = Number(subtotal) + Number(document.querySelector("#del").innerText)
-        document.querySelector("#applied").innerText=store+"Applied"
+        document.querySelector("#applied").innerText=store+" "+"Applied"
 
     }
     else {

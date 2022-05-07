@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     width: 85%;
     margin: auto;
+    font-family: 'Poppins',
+            sans-serif;
 }
 a{
     text-decoration: none;
@@ -105,13 +108,13 @@ justify-content: center;
     margin: 0px 15px;
     padding: 10px 0px;
     font-size: 0.8rem;
-    font-weight: bold;
     color: black;
     letter-spacing: 2px;
 }
 #navLinks>a:nth-child(1)
 {
-    color: red;
+color: rgb(156, 11, 154);
+    font-size: 1.1rem;
 }
 #navLinks>a:hover{
     border-bottom: 2px solid green;
@@ -263,10 +266,11 @@ h2:after {
 .delivery{
     width: 80%;
     height: 20px;
-    border: 1px solid red;
-    color: red;
+    border: 1px solid #B71761;
+    color: #B71761;
     border-radius: 10px;
     margin: auto;
+    font-size: 12px;
     padding-top: 5px;
 }
 #product4{
@@ -336,7 +340,9 @@ h3{
     justify-content: center;
 }
 .priceing>p{
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+    margin: 0;
+    padding: 5px;
 }
 .priceing>img{
     height: 100%;

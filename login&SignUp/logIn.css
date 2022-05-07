@@ -1,17 +1,20 @@
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    font-family: 'Raleway', sans-serif;
+}
   #backgroundDiv>img{
 
-        height: 100vh;
+        height: 97vh;
         position: relative;
         filter: blur(4px);
+        border: none;
+        margin: 0;
+        padding: 0;
     }
 
     #formDiv{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    width: 32%;
+    width: 20%;
     border-radius: 20px;
     margin:20px auto;
     background-color:white;
@@ -20,21 +23,14 @@
     align-items: center;
     justify-content: center;
     position: absolute; 
-    top: 18%;
-    right: 33%; 
-
+    top: 20%;
+    right: 38%; 
     }
-
-    #signup{
-
-    width: 100%;
-    height: 100%;
-    border: 1px solid black;
-    margin: 3% auto;
-    padding: 3%;
-
-    }
-
+ #formDiv>p>a{
+   text-decoration: none;
+   color: blue;
+   font-weight: bold;
+ }
     input{
     display: block;
     margin:15px 0px;
@@ -46,10 +42,16 @@
     
     }
     #submit{
-    background-color: darkblue;
+    background-color: blue;
     color: white;
+    margin: 10px auto;
+    margin-bottom: 20px;
     }
     #submit:hover{
-    background-color: salmon;
-    color:black;
+    background-color: darkblue;
+    color:white;
+    cursor: pointer;
+    }
+    h3{
+      margin: 5px ;
     }
