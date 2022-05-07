@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',
+            sans-serif;
+  
+}
+.cartContainer{
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+.offer{
+    height: auto;
+    margin: 20px 0px 40px 0px ;    
+}
+.offer>img{
+    width: 100%;
+}
+#cartItems{
+    height: auto;
+}
+#NoOfItem{
+    height: auto;
+    margin-bottom:10px ;
+    border-bottom: 1px solid green;
+}
+#ShopOrCheckout{
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    
+}
+#ShopOrCheckout>button{
+    margin: 0px 10px;
+    padding: 10px 20px;
+    border: none;
+    border: 1px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#ShopOrCheckout>button:nth-child(1)
+{
+    background-color: white;
+}
+#ShopOrCheckout>button:nth-child(2)
+{
+    background-color: #92be4d;
+    border: none;
+    color: white;
+    padding:5px 30px
+}
+#DeliveryTime{
+    border-top:1px solid black ;
+    color:#B71761 ;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+#cartItemsDisplay{
+        height: auto;
+    margin-bottom: 10px;
+}
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+}
+th,
+td {
+    padding: 15px;
+}
+tr{
+    background-color: #f1f1f1;
+}
+tr>th {
+    background-color: white;
+}
+#BillImg{
+    display: flex;
+    align-items: center;
+}
+#ShopOrCheckout>button:nth-child(1)>a{
+    text-decoration: none;
+    color: black;
+}
+#ShopOrCheckout>button:nth-child(2)>a {
+    text-decoration: none;
+    color: white;
+}
+#CalcTotal{
+    display: flex;
+    justify-content: flex-end;
+
+}
+#Total{
+    border: 1px solid;
+    height: auto;
+    width: 200px ;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#Total span{
+    text-align: right;
+    font-weight: 400;
+}
+#Total>p{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+tr span:nth-child(1){
+    /* background-color: green; */
+    font-size: 14px;
+    padding: 0px 4px;
+    border-radius: 50%;
+    background-color: #92be4d;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+tr span:nth-child(2)
+{
+    margin: 0px 5px;
+}
+tr span:nth-child(3) {
+    /* background-color: green; */
+    padding: 0px 3px;
+    border-radius: 50%;
+    background-color: #92be4d;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+}
