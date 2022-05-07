@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://gnbdevcdn.s3.amazonaws.com/Images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="payment.css">
+    <title>Payment</title>
+</head>
+<body>
+        <p id="top">Choose Payment options </p>
+    
+    <div id="Container">
+        <div id="left">
+            <div><img src="https://assets.mspimages.in/wp-content/uploads/2021/07/GooglePay_Lockup.max-1200x1200-1.png" alt="">G Pay  </div>
+            <div> <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt=""> Wallet</div>
+            <div> <img src="https://entrackr.com/wp-content/uploads/2020/11/mobikwik.jpg.webp" alt=""> Wallet</div>
+            <div> <img src="https://5.imimg.com/data5/YV/ZS/EG/SELLER-41027239/payumoney-500x500.jpg" alt="">Wallet</div>
+            <div> <img src="https://st.adda247.com/https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2020/06/11133200/cancel-icici-bank-credit-card.jpg " alt=""> Net Banking</div>
+            <div> <img src="https://www.chargebackgurus.com/hs-fs/hubfs/cash%20back%20debit%20card%20transactions.png?width=1752&name=cash%20back%20debit%20card%20transactions.png " alt=""> cash on delivery</div>
+            <div id="Card"  > <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/300px-Visa.svg.png" alt="" > Pay by Cards</div>
+        </div>
+        <div id="right">
+                <h3>Card & Debit Cards</h3>
+            <div id="cardPay">
+                <p>Add new card for payment</p>
+                <label for="CardNo">Card Number</label>
+                 <input type="number" placeholder="XXXX XXXX XXXX" id="CardNo" >
+                <div id="expiry">
+                    <label for="MExp">Expire Date(MM/YY)</label>
+                    <input type="number" id="MExp" placeholder="MM"> <span>/</span> <input type="number" placeholder="YY" id="YExp">
+                 
+                </div>
+                <label for="Cvv">CVV</label>
+                <input type="number" id="Cvv" placeholder="XXX" maxlength="3">
+            </div>
+            <p id="otp"> <span>O</span>ne <span>T</span>ime <span>P</span>assword will be sent to your Mobile Number</p>
+            <p>Your Card details will be saved for future transactions</p>
+            <button id="Pay">MAKE PAYMENT</button>
+        </div>
+        <div id="right02">
+            <h3>OrderSummary</h3>
+               <div id="orderBox">
+                    <div id="orderSummary">
+                        <p>No of Items : <span id="No"></span> </p>
+                        <p>Sub Total : &#8377;<span id="Subt"></span></p>
+                        <p>Discount : <span id="disc"></span></p>
+                        <p>Delivery : &#8377;<span id="del"></span></p>
+                        <p>Total Amount : &#8377;<span id="TotalA"></span></p>
+                    </div>
+                    <div id="coupons">
+                        <p>Have a Coupon Code</p>
+                        <input type="text" id="CouponCode" placeholder="Enter Code">
+                        <button id="ApplyBtn">Apply</button>
+                        <p id="applied"></p>
+                    </div>
+               </div>
+            
+        </div>
+    </div>
+  
+</body>
+</html>
+<script src="payment.js"></script>
