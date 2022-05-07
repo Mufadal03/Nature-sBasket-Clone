@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap%27);
+
+body {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+#footerContent {
+    width: 100%;
+    margin: auto;
+    font-size: 12px;
+    /* background-color: gainsboro; */
+}
+
+.footer-clean {
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+    font-family: 'Poppins',
+        sans-serif;
+    color: grey;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box>div>img {
+    height: 80px;
+    width: 170px;
+}
+
+#box {
+    width: 100%;
+    height: 300px;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+#box>div {
+    bottom: -20px;
+}
+
+#btn {
+    display: block;
+}
+
+#btn1>div:nth-child(2)>input {
+    height: 40px;
+    width: 105%;
+    color: grey;
+    border: 1px solid grey;
+
+}
+
+#btn1>div:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+#box1 {
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+}
+
+/* #box-5{
+    margin-top: -400px;
+} */
+#fcontainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    margin: 40px 0px 0px 0px;
+
+}
+
+#fcontainer>div {
+    font-size: 12px;
+}
+
+#fcontainer>div>div {
+    margin-bottom: 30px;
+}
+
+#fcontainer>div>div>ul {
+    cursor: pointer;
+    color: grey;
+    font-size: 12px;
+}
+
+h4 {
+    color: black;
+}
+
+#imgcollection {
+    display: flex;
+    width: 100%;
+    height: 55px;
+    justify-content: space-between;
+    margin: 0px 0px 20px 0px;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+#imgcollection p{
+    font-size: 14px;
+}
+
+#imgcollection>div {
+    width: 50%;
+}
+
+
+#imgcollection>div:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#imgcollection>div>img {
+    width: 400px;
+    height: 100%;
+    margin-left: 20px;
+
+}
+
+#btn {
+    background-color: #92be4d;
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+
+/* #imgcollection>div:nth-child(1)>p:nth-child(1) {
+    padding-top: 15px;
+    width: 30%;
+} */
+
+/* #imgcollection>div:nth-child(2)>p:nth-child(1) {
+    margin-left: 10px;
+    padding: 15px;
+} */
+
+#imgcollection>div {
+    display: flex;
+    /* margin-right: 60px;
+    margin-left: 70px; */
+}
+
+#imgcollection>div:nth-child(2)>img {
+    width: 50%
+}
+/* input{
+    width: 80px;
+    height: 40px;
+} */

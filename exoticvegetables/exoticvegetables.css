@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+
+
+body{
+    width: 85%;
+    margin: auto;
+}
+#outline{
+
+width:100%;
+height: auto;
+display: flex;
+gap: 15px;
+
+}
+
+#leftBox{
+
+    width: 22%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    /* margin-left: 1%; */
+    gap:12px;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;      
+}
+#rightBox{
+    width: 100%;
+    height: auto;
+    gap: 10px;
+}
+#firstBox{
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6px;
+    padding-right: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#firstBox>p{
+    margin-top: 12%;
+    color: #84ba40;
+    font-size: 16px
+}
+#list{
+    height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding-left: 6px;
+    font-size: 14px;
+    
+}
+#list::-webkit-scrollbar{
+    display: none;
+}
+#list>h4{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+#checkB{
+    padding-left: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    font-size: 14px;
+
+}
+.single{
+    padding-left: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.single2{
+    padding-left: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+div>input{
+margin-top: -10%;
+}
+div>form{
+    margin-top: -5%;
+}
+p{
+    font-size: 18px;
+}
+#products{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap:10px;
+    /* border: 1px solid teal; */
+
+}
+select{
+    border: hidden;
+}
+img{
+    width: 90%;
+    height: 50%;
+
+}
+.headingDiv{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+   font-weight: lighter;
+}
+.productDiv{
+    text-align: center;
+    border-radius: 8px;    
+    padding: 3px 0px 3px 0px;
+
+}
+.productDiv:hover{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.productDiv>img+p{
+    width: 70%;
+    font-size: 11px;
+    margin-left: 20%;
+    
+    background-color:white;
+}
+.productDiv>img+p+p{
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif; 
+ 
+    height: 14px;
+    
+    margin-bottom: 2%;
+}
+.innerDiv{
+
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+
+}
+.innerDiv>p{
+    width: 44%;
+    height: 25px;
+    text-align: center;
+    padding-top: 1.5%;
+}
+.ATC{
+    background-color: #84ba40;
+    margin-top: 7%;
+    border:1px solid transparent;
+    border-radius: 9px;
+    
+}

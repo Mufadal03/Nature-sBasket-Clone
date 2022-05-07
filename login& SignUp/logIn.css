@@ -1,0 +1,55 @@
+
+
+
+
+  #backgroundDiv>img{
+
+        height: 100vh;
+        position: relative;
+        filter: blur(4px);
+    }
+
+    #formDiv{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: 32%;
+    border-radius: 20px;
+    margin:20px auto;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute; 
+    top: 18%;
+    right: 33%; 
+
+    }
+
+    #signup{
+
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    margin: 3% auto;
+    padding: 3%;
+
+    }
+
+    input{
+    display: block;
+    margin:15px 0px;
+    padding: 5%;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color:white;
+    
+    }
+    #submit{
+    background-color: darkblue;
+    color: white;
+    }
+    #submit:hover{
+    background-color: salmon;
+    color:black;
+    }
