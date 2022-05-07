@@ -2,39 +2,139 @@ body{
     width: 85%;
     margin: auto;
 }
-#upperPannel{
-    height: auto;
-    width: 40%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-   margin-top: 20px;
-    margin-bottom: 0px;
-}
 a{
     text-decoration: none;
     color: black;
 }
-#topPannel{
-    height: auto;
+/* navbar */
+#content{
     width: 100%;
+    margin: auto;
+}
+#logoBox{
+    text-align: center;
+}
+#logoBox>img{
+    width: 200px;
+    margin-right:10px ;
+}
+#topPara{
+    border:1px solid purple;
+    height:auto;
+    padding:9px 0px 0px 2px;
+    border-radius:8px ;
+    font: 12px Poppins,sans-serif;
+    width: 99%;
+    text-align: center;
+    color:#393939;
+}
+.container{
+    align-content: left;
+}
+#searchbar{
+    display: flex;
+    align-items: center;
+}
+#divSearch{
+    place-content: center;
+   
+}
+#kishorilal{
+    width: 900px;
+    align-content: center;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    color: grey;
+    
+}
+
+#Sky{
     display: flex;
 }
-#topPannel>div{
-    height: 100px;
-    width: 30%;
+#Sky>img{
+    margin-left: -1px;
+    margin-right: 20px;
 }
+#sky>img+img{
+    border-left:2px solid ;
+}
+#Baba{
+color:black;
+margin-left: 0px;
+padding: 5px 0px 5px 5px;
+display: flex;
+margin: auto;
+justify-content: center;
+}
+/* #box{
+    
+} */
+#Baba>div{
+    font-weight: lighter;
+    padding: 0px 10px;
+    margin: 0px 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#Baba>div:nth-child(7){
+   /* margin-left: px; */
+   margin-right: -40px;
+  
+
+}
+#Baba>div+p{
+    flex-flow: nowrap;
+}
+#str{
+    margin-left: 2  0px;
+}
+#navLinks{
+    border: 0.5px solid ;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#navLinks>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin: 0px 15px ;
+    padding: 10px 0px;
+    font-size: 13px;
+}
+#navLinks>a:nth-child(1)
+{
+    color: red;
+}
+#navLinks>a:hover{
+    border-bottom: 2px solid green;
+}
+#line {
+    margin: 0px 10px;
+}
+#cart,#str{
+    cursor: pointer;
+}
+/* navbar end */
+
 #rpsg{
     height: 100%;
     width: 100%;
 }
 #pics{
-    height: 200px;
+    height: auto;
     width: 100%;
-    border: 1px solid black;
     margin-top: 2px;
     border-radius: 10px;
-    
+}
+#pics>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
 }
 #cards{
     height: auto;
@@ -128,8 +228,12 @@ h2:after {
 #img1{
     height: auto;
     width: 100%;
-    border: 1px solid black;
     margin-top: 2px;
+    border-radius: 10px;
+}
+#img1>img{
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
 }
 #product3{
@@ -221,19 +325,163 @@ h3{
     justify-content: space-evenly;
 }
 .priceing{
-    height: 30px;
+    height: 35px;
     width: 31%;
     border: 1px solid gray;
     border-radius: 10px;
-    margin-top: 10px;
-    padding-top: 10px;
+    display: flex;
+    justify-content: center;
 }
- button{
-    height: 30px;
-    width: 31%;
-    margin-top: 10px;
-    border: 0px;
+.priceing>p{
+    margin-bottom: 15px;
+}
+.priceing>img{
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
-    background-color: green;
+}
+#noborder2{
+    border: 0px;
+}
+/* footer */
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap%27);
+
+/* body {
+    font-family: 'Poppins',
+        sans-serif;
+} */
+
+#footerContent {
+    width: 100%;
+    margin: auto;
+    font-size: 12px;
+}
+
+.footer-clean {
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+    font-family: 'Poppins',
+        sans-serif;
+    color: grey;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box>div>img {
+    height: 80px;
+    width: 170px;
+}
+
+#box {
+    width: 100%;
+    height: 300px;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+#box>div {
+    bottom: -20px;
+}
+
+#btn {
+    display: block;
+}
+
+#btn1>div:nth-child(2)>input {
+    height: 40px;
+    width: 130%;
+    color: grey;
+    border: 1px solid grey;
+
+}
+
+#btn1>div:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+#box1 {
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+}
+
+/* #box-5{
+    margin-top: -400px;
+} */
+#fcontainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    margin: 40px 0px 0px 0px;
+
+}
+
+#fcontainer>div {
+    font-size: 12px;
+}
+
+#fcontainer>div>div {
+    margin-bottom: 30px;
+}
+
+#fcontainer>div>div>ul {
+    cursor: pointer;
+    color: grey;
+    font-size: 12px;
+}
+
+h4 {
+    color: black;
+}
+
+#imgcollection {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0px 0px 20px 0px;
+}
+
+#imgcollection>div {
+    width: 50%;
+}
+
+#imgcollection>div:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#imgcollection>div>p>img {
+    width: 400px;
+    height: 100%;
+    margin-left: 20px;
+
+}
+
+#btn {
+    background-color: #92be4d;
+    padding: 10px 20px 10px 20px;
     color: white;
+}
+
+#imgcollection>div:nth-child(1)>p:nth-child(1) {
+    padding-top: 15px;
+    width: 30%;
+}
+
+#imgcollection>div:nth-child(2)>p:nth-child(1) {
+    margin-left: 10px;
+    padding: 15px;
+}
+
+#imgcollection>div {
+    display: flex;
+    /* margin-right: 60px;
+    margin-left: 70px; */
+}
+
+#imgcollection>div:nth-child(2)>p>img {
+    width: 50%
 }
