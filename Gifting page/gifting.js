@@ -440,7 +440,7 @@ productsData.forEach(function (e) {
     quantity.style.fontWeight = "bold";
 
     let price = document.createElement("p");
-    price.innerText = "Rs " + e.productPrice;
+    price.innerText = "₹"+" " + e.productPrice;
 
     let addImg = document.createElement("img");
     addImg.setAttribute("src", "https://www.naturesbasket.co.in/Images/CartAddBtn.PNG");
@@ -472,3 +472,12 @@ function AddToCart(e) {
     localStorage.setItem("cartProduct", JSON.stringify(cartArr));
     alert(e.productName + "Added to cart!");
 }
+var cart = document.querySelector("#cart")
+cart.addEventListener("click", function ()
+{
+    window.location.href="/Nature-sBasket/CartPage/cart.html"
+})
+document.querySelector("#logoBoxImg").addEventListener("click", function ()
+{
+    window.location.href="/Nature-sBasket/index.html"
+})

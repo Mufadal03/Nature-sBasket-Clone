@@ -7,8 +7,8 @@
     text-align: center;
 }
 #logoBox>img{
-    width: 350px;
-    margin-right:10px ;
+    width: 200px;
+    margin-right: 10px;
 }
 #topPara{
     border:1px solid purple;
@@ -26,36 +26,25 @@
 #searchbar{
     display: flex;
     align-items: center;
-    position: sticky;
-    top: 10px;
 }
 #divSearch{
     place-content: center;
    
 }
-#kishorilal{
+#kishorilal {
     width: 900px;
     align-content: center;
     height: 30px;
     border-radius: 4px;
     text-align: center;
     color: grey;
-    
+    margin: 0;
 }
 
-#Sky{
+#Sky {
     display: flex;
-    height: 50px;
-    width: 740px;
-    margin-left: 4%;
-    /* border: 1px solid black; */
-    justify-content: space-between;
-    padding-top: 2%;
 }
-#Sky>input{
-     width: 640px;
-     margin-top: 0%;
-}
+
 #Sky>img{
     margin-left: -1px;
     margin-right: 20px;
@@ -107,19 +96,19 @@ justify-content: center;
     margin: 5px 0px;
 }
 #navLinks>a{
-  text-decoration: none;
+text-decoration: none;
     text-transform: uppercase;
     margin: 0px 15px;
     padding: 10px 0px;
     font-size: 0.8rem;
-    font-weight: bold;
     color: black;
     letter-spacing: 2px;
 }
 
 #navLinks>a:nth-child(1)
 {
-    color: red;
+    color: purple;
+    font-size: 1.1rem;
 }
 #navLinks>a:hover{
     border-bottom: 2px solid green;

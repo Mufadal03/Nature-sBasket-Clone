@@ -114,7 +114,8 @@ body{
     .productDiv{
         text-align: center;
         border-radius: 8px;
-        padding: 3px 0px 3px 0px;
+        padding: 5px 10px;
+
 
     }
     
@@ -130,33 +131,34 @@ body{
         background-color:white;
         line-height: 11px;
     }
+   
     .productDiv>img+p+p{
         font-weight: lighter;
         font-family: 'Raleway', sans-serif;
-     
         height: 12px;
-    
         margin-bottom: 2%;
+    }
+    .innerDiv {
+    
+        display: flex;
+        gap: 5px;
     
     }
-    .innerDiv{
-
-        display: flex;
-        justify-content: space-around;
-        gap: 5px;
-
-    }
-    .innerDiv>p{
-        width: 45%;
+    
+    .innerDiv>p {
+        width: 44%;
+        font-size: 12px;
         height: 25px;
         text-align: center;
         padding-top: 1.5%;
-        
     }
-    .ATC{
+    
+    .ATC {
+        margin: auto;
         background-color: #84ba40;
-        margin-top: 7%;
-        border:1px solid transparent;
+        border: 1px solid transparent;
         border-radius: 9px;
-        
+        width: 85px;
+        cursor: pointer;
+    
     }

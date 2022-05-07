@@ -100,13 +100,13 @@ justify-content: center;
     margin: 0px 15px;
     padding: 10px 0px;
     font-size: 0.8rem;
-    font-weight: bold;
     color: black;
     letter-spacing: 2px;
 }
 #navLinks>a:nth-child(1)
 {
-    color: red;
+    color: purple;
+    font-size: 1.1rem;
 }
 #navLinks>a:hover{
     border-bottom: 2px solid green;

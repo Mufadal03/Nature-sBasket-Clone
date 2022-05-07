@@ -25,7 +25,8 @@ function logInFun(){
    else if(logInObj.email==signUpData.Email && logInObj.key==signUpData.key)
      {
          alert("LogIn Successful")
-         var LogInData=localStorage.setItem("logInInfo",JSON.stringify(logInObj))
+       var LogInData = localStorage.setItem("logInInfo", JSON.stringify(logInObj))
+       window.location.href="/Nature-sBasket/index.html"
      } 
    else
      {

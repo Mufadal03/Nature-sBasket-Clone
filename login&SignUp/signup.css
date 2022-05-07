@@ -6,45 +6,28 @@
     font-family: 'Raleway', sans-serif;
 }
 #backgroundDiv>img{
-    height: 100vh;
+    height: 99vh;
     position: relative;
     filter: blur(4px);
-   
 }
-
-
 #formDiv{
-
-    width: 32%;
+    width: 20%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     margin:30px auto;
     background-color:white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     border-radius: 20px;
     padding: 20px;
     position: absolute;
-    top: 10%;
-    right:30%;
-
-    
-    
+    top: 15%;
+    right:38%;
 }
 h2{
     margin-bottom: 4%;
 }
 
-#signup{
-
-    width: 100%;
-    height: 100%;
-    border: 1px solid rgb(230, 230, 230);
-    margin: 3% auto;
-    padding: 3%;
-    
-}
 
 input{
     display: block;
@@ -53,17 +36,26 @@ input{
     font-size: 20px;
     border-radius: 10px;
     border: 1px solid black ;
-    background-color:white;
-    opacity: 0.6; 
+    /* background-color:white; */
+    /* opacity: 0.6;  */
 }
 #submit{
-    background-color: darkblue;
+    background-color: blue;
     color: white;
     height: 40px;
-    margin-left: 25%;
+    margin: 5px auto;
 }
 #submit:hover{
-    background-color: salmon;
-    color:teal;
+    background-color: darkblue;
+    color:white;
     opacity: 1;
+}
+#login{
+    margin: 20px 10px;
+}
+#login>a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    margin-left: 10px;
 }

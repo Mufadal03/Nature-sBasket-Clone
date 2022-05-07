@@ -1,23 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-
-
-
 body{
     width: 85%;
     margin: auto;
 }
 #outline{
-
 width:100%;
 height: auto;
 display: flex;
 gap: 15px;
-
 }
 
 #leftBox{
-
     width: 22%;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     /* margin-left: 1%; */
@@ -103,9 +96,11 @@ img{
 .headingDiv{
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 h2{
    font-weight: lighter;
+   margin: 5px 0px ;
 }
 .productDiv{
     text-align: center;
@@ -134,19 +129,19 @@ h2{
 .innerDiv{
 
     display: flex;
-    justify-content: space-around;
     gap: 5px;
 
 }
 .innerDiv>p{
     width: 44%;
+    font-size: 12px;
     height: 25px;
     text-align: center;
     padding-top: 1.5%;
 }
 .ATC{
+    margin: auto;
     background-color: #84ba40;
-    margin-top: 7%;
     border:1px solid transparent;
     border-radius: 9px;
     
