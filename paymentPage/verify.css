@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 body{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -8,8 +8,13 @@ body{
     padding: 0;
     font-family: 'Raleway',
     sans-serif;
+    position: relative;
 }
-
+img{
+    height: 99vh;
+    width: 100vw;
+    filter: blur(2px);
+}
 #verification{
     border: 1px solid ;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -18,6 +23,11 @@ body{
     text-align: center;
     padding: 20px;
     border-radius: 20px;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    background-color: white;
+
    
 }
 #verification>input{
@@ -46,4 +56,7 @@ button:hover{
 span{
     color: red;
     cursor: pointer;
+}
+#AfterPayment{
+    border: 1px soldi red;
 }

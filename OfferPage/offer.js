@@ -223,7 +223,7 @@ function AddtoCart(elem)
 {
     CartArr.push(elem)
     localStorage.setItem("cartProduct", JSON.stringify(CartArr))
-    alert(elem.productName+"ADDED TO CART")
+    alert(elem.productName+" " +"Added to cart !")
 }
 
 var cart = document.querySelector("#cart")

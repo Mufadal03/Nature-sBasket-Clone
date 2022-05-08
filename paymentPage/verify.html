@@ -9,6 +9,7 @@
     <title>verification</title>
 </head>
 <body>
+    <img src="/Nature-sBasket/img/Delivery02.jpg" alt="">
     <div id="verification">
         <h3>Enter One Time Password</h3>
         <p>sent to +91-98******86</p>
@@ -30,8 +31,14 @@
     {
         document.querySelector("#verification").innerHTML=""
         var h3 = document.createElement("h3")
-        h3.innerText="PAYMENT SUCCESSFULL"
-        document.querySelector("#verification").append(h3)
+        h3.innerText="Order Confirmed"
+
+        var div = document.createElement("div")
+        div.setAttribute("id","AfterPayment")
+        var p1 = document.createElement("p")
+        p1.innerText="Order ID #1212987"
+        div.append(p1)
+        document.querySelector("#verification").append(h3,div)
         document.querySelector("#verification").style.backgroundColor="white"
         var body = document.querySelector("body")
         body.style.backgroundColor="lavender"

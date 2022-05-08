@@ -5,12 +5,23 @@
     font-family: 'Poppins',
     sans-serif;
 }
+body{
+    position: relative;
+}
+body>img{
+    height: 99vh;
+    width: 100vw;
+    filter: blur(4px);
+}
 #addContainer{
     width: 85%;
     margin: auto;
     margin-top: 20px;
     height: 700px;
     display: flex;
+    top: 10px;
+    left: 8%;
+    position: absolute; 
 }
 #leftContainer{
     border-right: 1px solid;
@@ -29,13 +40,17 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(auto);
     gap: 20px;
+    /* height: 80%; */
+    /* border: 1px solid green; */
 }
+
 #saved>div{
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     padding: 10px;
     box-sizing: border-box;
     border-radius: 10px;
+    background-color: white;
 }
 #saved>div>p{
 
@@ -60,6 +75,7 @@
     padding: 10px;
     border-radius:15px ;
     margin-top: 30px;
+    background-color: white;
 }
 input{
     width: auto;
