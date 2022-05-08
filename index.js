@@ -5,5 +5,5 @@ document.querySelector("#logoBoxImg").addEventListener("click", function ()
 var cart = document.querySelector("#cart")
 cart.addEventListener("click", function ()
 {
-    window.location.href="/Nature-sBasket/CartPage/cart.html"
+    window.location.href="../Nature-sBasket/CartPage/cart.html"
 })

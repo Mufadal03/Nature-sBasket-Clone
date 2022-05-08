@@ -17,7 +17,7 @@ function StoreAdd()
     }
     addressArr.push(myData)
     localStorage.setItem("AddressData", JSON.stringify(addressArr))
-    window.location.href="/Nature-sBasket/paymentPage/payment.html"
+    window.location.href="../paymentPage/payment.html"
 }
 if (addressArr.length == 0)
 {
