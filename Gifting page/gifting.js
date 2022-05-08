@@ -470,7 +470,7 @@ let cartArr = JSON.parse(localStorage.getItem("cartProduct")) || [];
 function AddToCart(e) {
     cartArr.push(e);
     localStorage.setItem("cartProduct", JSON.stringify(cartArr));
-    alert(e.productName + "Added to cart!");
+    alert(e.productName +" "+ "Added to cart!");
 }
 var cart = document.querySelector("#cart")
 cart.addEventListener("click", function ()
