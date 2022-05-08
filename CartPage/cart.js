@@ -1,4 +1,4 @@
-var cartItem = JSON.parse(localStorage.getItem("cartProduct"))
+var cartItem = JSON.parse(localStorage.getItem("cartProduct"))||[]
 displayData(cartItem)
 var sum = 0
 function displayData(data)
@@ -56,11 +56,17 @@ function displayData(data)
     })  
 }
 
-    
+
 document.querySelector("#ItemNo").innerText = cartItem.length
-document.querySelector("#subTotal").innerText=JSON.parse(localStorage.getItem("TotalAmount"))
 document.querySelector("#DeliveryC").innerText =50
-document.querySelector("#TotalC").innerText=Number(document.querySelector("#subTotal").innerText)+50
+if (cartItem.length == 0)
+{
+    localStorage.removeItem("TotalAmount")
+    document.querySelector("#DeliveryC").innerText =0
+    
+}
+document.querySelector("#subTotal").innerText=JSON.parse(localStorage.getItem("TotalAmount"))
+document.querySelector("#TotalC").innerText = Number(document.querySelector("#subTotal").innerText) + Number(document.querySelector("#DeliveryC").innerText)
         
 function DeleteMe(elem,index)
 {
@@ -78,4 +84,6 @@ cart.addEventListener("click", function ()
 document.querySelector("#logoBoxImg").addEventListener("click", function ()
 {
     window.location.href = "../index.html"
+    console.log("falgun")
+
 })
