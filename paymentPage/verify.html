@@ -9,7 +9,7 @@
     <title>verification</title>
 </head>
 <body>
-    <img src="/Nature-sBasket/img/Delivery02.jpg" alt="">
+    <img src="../img/Delivery02.jpg" alt="">
     <div id="verification">
         <h3>Enter One Time Password</h3>
         <p>sent to +91-98******86</p>
@@ -37,7 +37,16 @@
         div.setAttribute("id","AfterPayment")
         var p1 = document.createElement("p")
         p1.innerText="Order ID #1212987"
-        div.append(p1)
+        var btn =document.createElement("button")
+        btn.innerText="Continue Shopping"
+        btn.style.backgroundColor="green"
+        btn.style.Color = "white"
+
+        btn.addEventListener("click",function()
+        {
+            window.location.href="../index.html"
+        })
+        div.append(p1,btn)
         document.querySelector("#verification").append(h3,div)
         document.querySelector("#verification").style.backgroundColor="white"
         var body = document.querySelector("body")

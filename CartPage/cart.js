@@ -72,10 +72,10 @@ var cart = document.querySelector("#cart")
 cart.style.cursor="pointer"
 cart.addEventListener("click", function ()
 {
-    window.location.href="/Nature-sBasket/CartPage/cart.html"
+    window.location.href="cart.html"
 })
 
 document.querySelector("#logoBoxImg").addEventListener("click", function ()
 {
-    window.location.href="/Nature-sBasket/index.html"
+    window.location.href = "../index.html"
 })
