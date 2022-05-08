@@ -18,5 +18,5 @@ In our team there are 6 members :
 
 5 : Nikhil Singh , 
 
-6 : Kajol Kishore
+6 : Kajal Kishore
 
