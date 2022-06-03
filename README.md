@@ -16,7 +16,5 @@ In our team there are 6 members :
 
 4 : Roni mallick , 
 
-5 : Nikhil Singh , 
-
-6 : Kajal Kishore
+5 : Kajal Kishore
 
