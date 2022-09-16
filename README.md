@@ -35,6 +35,18 @@
 <br/>
 
 
+## Glimpse of our website
+
+![NatureHome](https://user-images.githubusercontent.com/101393298/190653735-cbfa3f66-1e32-43c7-83a1-e5b9dfa709e7.png)
+
+![NatureOffer](https://user-images.githubusercontent.com/101393298/190653813-f9da3a88-b314-42d4-95e8-ccd31f3f3130.png)
+![NatureVegies](https://user-images.githubusercontent.com/101393298/190653840-c0396c2a-65b5-4491-9a10-d868bf3fbede.png)
+
+![NatureCart](https://user-images.githubusercontent.com/101393298/190653873-dd7803e7-3546-47d6-931c-fef69c5d2112.png)
+
+
+
+
 ## Getting Started
 
 This project was built using Basic HTML , CSS and JAVASCRIPT.Nature's Basket is the online grocerry based website from where anyone can order , to run it in your local system you should follow these guidelines.
