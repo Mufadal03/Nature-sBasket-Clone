@@ -13,8 +13,8 @@
 
 <p align="center"> 
     <br />&#10023;
-    <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Install">Installing</a> &#10023;    
-    <a href="#Contributor">Contributors</a> &#10023;
+    <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Setup">Setup</a> &#10023;    
+    <a href="#Contributors">Contributors</a> &#10023;
   </p>
   
    Nature’s Basket is India’s pioneering food destination present through physical retail stores, online portal and a mobile application. Currently extends to over 35    neighbourhood convenience stores in Mumbai, Pune and Bangalore with a diverse product portfolio ranging from fresh fruits and vegetables, fish and meat, artisanal      breads, FMCG and staples.
