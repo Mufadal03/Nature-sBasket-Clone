@@ -14,7 +14,7 @@
 <p align="center"> 
     <br />&#10023;
     <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Install">Installing</a> &#10023;    
-    <a href="#Contributor">Contributor</a> &#10023;
+    <a href="#Contributor">Contributors</a> &#10023;
   </p>
   
    Nature’s Basket is India’s pioneering food destination present through physical retail stores, online portal and a mobile application. Currently extends to over 35    neighbourhood convenience stores in Mumbai, Pune and Bangalore with a diverse product portfolio ranging from fresh fruits and vegetables, fish and meat, artisanal      breads, FMCG and staples.
@@ -65,7 +65,8 @@ Open the vs-code editor right click on index.js and select the copy path then pa
 
 <br/>
 
-## Contributor
+## Contributors
+
 - [Mufadal Sadriwala](https://github.com/Mufadal03)
 - [Sayan Mukhrejee](https://github.com/IntriguedSayan)
 - [Rohit Singh](https://github.com/RohitSinghChauhan)
